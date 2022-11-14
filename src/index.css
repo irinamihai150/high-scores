@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h3 {
+  text-align: center;
+  color: rgb(140, 208, 250);
+}
+
+tr td {
+  border: 2px solid black;
+}
+
+td {
+  color: black;
+}
+
+table {
+  border: 5px solid rgb(11, 194, 11);
+  width: 600px;
+  margin-left:2em;
+  padding:2em 2em;
+}
+
+.container {
+  border: 2px solid blue;
+
+  margin-left: 2em;
+  align-items: center;
+}
+
+th {
+  color: rgb(140, 208, 250);
+}
