@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 
 export default function Button() {
-  // const [order, setOrder] = useState([]);
   function toggleScores() {
-
-
-    
+    // const [order, setOrder] = useState([]);
+    return (
+      <div>
+        <button onClick={toggleScores}>Click Me</button>
+      </div>
+    );
   }
-  return (
-    <div>
-      <button onClick={toggleScores}>Click Me</button>
-    </div>
-  );
+  
 }

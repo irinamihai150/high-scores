@@ -24,9 +24,7 @@ const HighScoreTable = () => {
                 <th>High scores: {name}</th>
               </tr>
             </thead>
-            <tbody>
                 <PlayerScore scores= {scores}/>
-            </tbody>
           </table>
         );
       })}
