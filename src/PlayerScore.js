@@ -25,9 +25,6 @@
 //   );
 // }
 
-
-
-
 // export default function PlayerScore() {
 //   let scores = {};
 //   for (let [n, s] of Object.entries(allCountryScores)) {
