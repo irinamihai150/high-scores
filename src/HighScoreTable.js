@@ -1,4 +1,5 @@
 import React from "react";
+import PlayerScore from "./PlayerScore";
 import allCountryScores from "./scores";
 
 allCountryScores.sort(function (a, b) {
@@ -24,18 +25,7 @@ const HighScoreTable = () => {
               </tr>
             </thead>
             <tbody>
-              {scores.map(({ n, s }) => {
-              scores.sort((a, b) =>
-                a.s < b.s ? 1 : b.s < a.s ? -1 : 0
-              );
-                return (
-                  <tr className="wrap">
-                    <td className="player-name">
-                      {n} {s}
-                    </td>
-                  </tr>
-                );
-              })}
+                <PlayerScore scores= {scores}/>
             </tbody>
           </table>
         );

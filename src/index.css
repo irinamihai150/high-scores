@@ -39,6 +39,7 @@ table {
   margin: auto;
   justify-content: center;
   width: 40em;
+  margin-bottom: 3em;
 }
 
 th {
@@ -57,4 +58,5 @@ button {
 .player-name {
   padding:1em;
 font-weight: 500;
+width: 200em;
 }
