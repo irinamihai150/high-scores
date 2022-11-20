@@ -42,3 +42,10 @@ table {
 th {
   color: rgb(140, 208, 250);
 }
+button {
+  margin:2em 2em;
+  background-color: rgb(43, 255, 0);
+  width: 200px;
+  height:30px;
+  
+}

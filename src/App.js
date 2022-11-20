@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import HighScoreTable from "./HighScoreTable";
-import PlayerScore from "./PlayerScore";
+// import PlayerScore from "./PlayerScore";
 import Button from "./Button";
 
 function App() {
