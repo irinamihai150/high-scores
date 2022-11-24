@@ -4,6 +4,7 @@ import HighScoreTable from "./HighScoreTable";
 
 
 function App() {
+
   return (
     <div>
       <HighScoreTable/>
